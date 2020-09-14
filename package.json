@@ -1,0 +1,17 @@
+{
+  "name": "start-up-kit",
+  "description": "Easy and Fast StartUp development kit",
+  "private": true,
+  "repository": "https://github.com/pahaz/hackathon-boilerplate-starter-kit",
+  "homepage": "https://github.com/pahaz/hackathon-boilerplate-starter-kit",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "node ./bin/run-multiple-apps",
+    "start": "node ./bin/run-multiple-apps",
+    "build": "node ./bin/run-build-all"
+  }
+}
